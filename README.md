@@ -33,14 +33,14 @@ Then go to github and confirm the push.
 
 And follow the steps below to open up a pull request, so we can see you fabulous work!
 
-1. Click on the branch comparison icon from the repository home.
+**Step 1** Click on the branch comparison icon from the repository home.
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/1-opening-pull-request.png)
 
-2. Click Create Pull Request
+**Step 2** Click Create Pull Request
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/2-opening-pull-request.png)
 
-3. Confirm the Create Pull Request
+**Step 3** Confirm the Create Pull Request
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/3-opening-the-pull-request.png)
