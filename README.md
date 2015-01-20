@@ -9,13 +9,17 @@ type: review
 
 ![ruby](http://media2.giphy.com/media/12jdalMQkt7iM/200.gif)
 
-Time to review your Ruby skills! **Fork** (really important!) and clone this lab.
+Time to test your Ruby skills! **Fork** (really important!) and clone this lab.
 
 Follow the instructions and write your code in `ruby_review.rb`.
 
 Then run `bundle install` in your terminal to install the Gems you need and `rspec --fail-fast` to run the tests to make sure your code is working properly.
 
-Once you get all of your tests passing make sure that the lab is forked onto your own account. **Check this by typing `git remote -v` in the terminal - you should see your github username in this remote address.** Then push your work onto github with the following commands:
+Once you get all of your tests passing make sure that the lab is forked onto your own account. 
+
+**Check this by typing `git remote -v` in the terminal - you should see your github username in this remote address.** 
+
+Then push your work onto github with the following commands:
 
 ```bash
 git add .
