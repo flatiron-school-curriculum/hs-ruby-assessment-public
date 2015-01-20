@@ -13,7 +13,7 @@ Time to test your Ruby skills! **Fork** (really important!) and clone this lab.
 
 Follow the instructions and write your code in `ruby_review.rb`.
 
-Then run `bundle install` in your terminal to install the Gems you need and `rspec --fail-fast` to run the tests to make sure your code is working properly.
+Then type `bundle install` into your terminal to install the Gems you need and `rspec --fail-fast` to run the tests to see if your code is working properly.
 
 Once you get all of your tests passing make sure that the lab is forked onto your own account. 
 
@@ -27,7 +27,7 @@ git commit -m "passes tests"
 git push
 ```
 
-Go to github and confirm that the code has been  pushed up (look at the photo below). Then follow the steps after that to open up a pull request, so we can see you fabulous work!
+Go to github and confirm that the code has been  pushed up (look at the photo below). Then follow the steps after that to open up a pull request, so we can see your fabulous work!
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/7-solving-the-lab.png)
 
