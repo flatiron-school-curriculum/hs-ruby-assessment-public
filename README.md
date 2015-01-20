@@ -27,11 +27,11 @@ git commit -m "passes tests"
 git push
 ```
 
-Then go to github and confirm the push.
+Go to github and confirm that the code has been  pushed up (look at the photo below). Then follow the steps after that to open up a pull request, so we can see you fabulous work!
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/7-solving-the-lab.png)
 
-And follow the steps below to open up a pull request, so we can see you fabulous work!
+
 
 **Step 1** Click on the branch comparison icon from the repository home.
 
