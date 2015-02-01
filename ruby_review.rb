@@ -8,7 +8,7 @@ def add_name(array)
 end
 
 def print_items(array)
-  # Write code inside this print_items method to iterate over each element in the array and puts it
+  # Iterate over each element in the array and puts it
 
 end
 
@@ -23,20 +23,21 @@ def third_item(array)
 end
 
 # Level 2: Hashes
-# This is the hash that rspec will be using to call and test each of the methods below: teacher = {:name => "Danny", :age => 55}
+# This is the hash that rspec will be using to call and test each of the methods below: 
+# {:name => "Danny", :age => 55}
+
+def name(hash)
+  # Return the value of :name from the hash
+
+end
 
 def add_location(hash)
-  # Write code inside this add_location method to add a key :location to the hash with a value of "NYC" 
+  # Add a key :location to the hash with a value of "NYC" 
 
 end
 
 def print_key_value_pairs(hash)
   # Iterate over the hash and puts each key value pair. Make sure to use string interpolation and pay attention to punctuation!
-  
-end
-
-def name(hash)
-  # Write code that will return a :name value from the hash
 
 end
 
@@ -60,7 +61,12 @@ end
 # }
 
 def modify_hash(nested_hash)
-  # Write code inside this modify_hash method to add a key :founded_in with a value of 2013.
+  # Add a key :founded_in with a value of 2013.
+
+end
+
+def return_first_student(nested_hash)
+  # Return the first student in the students array
 
 end
 
@@ -75,7 +81,12 @@ def add_semester(nested_hash)
 end
 
 def find_student_by_grade(nested_hash)
-  # Use the .find method (it works similar to .each- Google it!) to find the student in the students array with a grade equal to "B".
+  # Use the .find method (it works similar to .each) to iterate through the students array and look for a student with :grade == "B".
+
+end
+
+def find_student_by_name(nested_hash)
+  # Use the .find method to look for the student named "Frank. This time return only Frank's grade (not all of his info.)
 
 end
 
@@ -86,7 +97,7 @@ end
 
 def delete_student(nested_hash)
   # Delete the student named "Billy" from the hash
-
+ 
 end
 
 # Bonus!

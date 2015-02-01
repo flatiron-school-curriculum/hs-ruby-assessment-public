@@ -35,7 +35,11 @@ describe "Level 2" do
 
     teacher = {:name => "Danny", :age => 55}
 
-    it "adds a new key value pair" do
+    it "returns a value from the hash" do
+      expect(name(teacher)).to eq("Danny")
+    end
+
+    it "adds a location value to the hash" do
       expect(add_location(teacher)).to eq("NYC")
     end
 
@@ -46,13 +50,6 @@ describe "Level 2" do
       print_key_value_pairs(teacher)
     end
 
-    it "returns a value from the hash" do
-      expect(name(teacher)).to eq("Danny")
-    end
-
-    it "finds a key from a known value" do
-      expect(key(teacher)).to eq(:age)
-    end
   end
 end
 
@@ -79,6 +76,10 @@ describe "Level 3" do
       expect(modify_hash(school)).to eq(2013)
     end
 
+    it "returns the first student's info" do 
+      expect(return_first_student(school)).to eq({:name => "Marissa", :grade => "B"})
+    end
+
     it "adds to a nested array" do
       add_student(school)
       expect(school[:students].count).to eq(5)
@@ -90,13 +91,13 @@ describe "Level 3" do
       expect(school[:students].all? {|student| student[:semester] == "Summer"}).to eq(true)
     end
 
-    it "finds student by their grade" do
-      expect(find_student_by_grade(school)).to eq "Marissa"
+    it "finds student info based on grade" do
+      expect(find_student_by_grade(school)).to eq({:name=>"Marissa", :grade=>"B", :semester=>"Summer"})
     end
 
     it "changes value of hash in nested students array" do
       change_frank_grade(school)
-      expect(school[:students].find{|student| student[:name] == "Frank"}[:grade]).to eq "F"
+      expect(school[:students].find{|student| student[:name] == "Frank"}[:grade]).to eq("F")
     end
 
     it "deletes values from nested array" do
