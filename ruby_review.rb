@@ -121,5 +121,20 @@ end
 
 # Bonus!
 def print_all_items(nested_hash)
-  
+  values = []
+  nested_hash.values.each do |item|
+    if item.instance_of? String
+      values.push(item)
+    elsif item.instance_of? Array
+      item.each do |inneritem|
+        inneritem.values.each do |i|
+          values.push(i)
+        end
+      end
+    end
+
+  end
+  values.each do |item|
+    puts item
+  end
 end
