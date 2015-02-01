@@ -1,6 +1,6 @@
 # Level 1: Arrays
 
-# This is the array that rspec will be using to call and test each of the methods below: teachers = ["Steph","Victoria","Vanessa"]
+# This is the array that rspec will be using to call and test each of the methods below: ["Steph","Victoria","Vanessa"]
 
 def add_name(array)
   # Write code inside this add_name method to add the string "Danny" to the array
@@ -44,7 +44,7 @@ end
 # Level 3: Nested Data Structures
 
 # This is the hash that rspec will be using to call and test each of the methods below: 
-# school = { 
+# { 
 #   :name => "Happy Funtime School",
 #   :location => "NYC",
 #   :instructors => [ 
