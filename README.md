@@ -44,3 +44,4 @@ Go to github and confirm that the code has been  pushed up (look at the photo be
 **Step 3** Confirm the Create Pull Request
 
 ![1](http://flatiron-videos.s3.amazonaws.com/ironboard/ironboard-tutorial/3-opening-the-pull-request.png)
+<a href='https://learn.co/lessons/hs-ruby-assessment-public' data-visibility='hidden'>View this lesson on Learn.co</a>
